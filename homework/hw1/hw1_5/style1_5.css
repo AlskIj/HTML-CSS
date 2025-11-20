@@ -1,0 +1,17 @@
+h2, p, h1{
+    margin-left: 50%;
+    background-color: rgba(119, 136, 153, 0.46);
+    color: lightgray;
+}
+img{
+    width: 200px;
+    margin-left: 80%;
+}
+hr{
+    margin-left: 50%;
+}
+body{
+    background-image: url('images/batman.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
