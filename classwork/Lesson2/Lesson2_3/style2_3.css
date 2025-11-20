@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.flex{
+    background-color: lightsalmon;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.red{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.red p{
+    color: darkgreen;
+    font-size: 20px;
+}
+.red img{
+    width: 50%;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
