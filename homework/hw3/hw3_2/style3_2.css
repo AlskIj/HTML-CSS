@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+section{
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.top-section{
+    background-color: pink;
+}
+.bottom-section{
+    background-color: black;
+    color: white;
+}
+section p{
+    width: 80%;
+}
+section h2{
+    font-size: 32px;
+    font-weight: 400;
+}
