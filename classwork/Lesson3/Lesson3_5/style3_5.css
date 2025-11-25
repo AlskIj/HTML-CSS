@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+
+}
+nav ul a{
+    color: gray;
+    font-size: 24px;
+}
+#home{
+    background-color: chartreuse;
+}
+#about{
+    background-color: aqua;
+}
+#info{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info a{
+    color: black;
+    font-size: 20px;
+}
