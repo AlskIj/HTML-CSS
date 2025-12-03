@@ -1,0 +1,44 @@
+*{
+    margin:0;
+}
+
+header{
+    height: 4vh;
+    background: #D9D9D9;
+}
+
+
+
+main{
+    display: flex;
+}
+
+.main__big-div{
+    height: 74vh;
+    width: 59vw;
+    background: #A4A4A4;
+}
+
+
+.main__aside-div{
+    width: 41vw;
+}
+
+.main__aside-top{
+    height: 40vh;
+    background: #7F7A7A;
+}
+.main__aside-bottom{
+    height: 34vh;
+    background: #615050;
+}
+
+.footer__section-top{
+    height: 10vh;
+    background: #D9D9D9;
+}
+
+.footer__section-bottom{
+    height: 12vh;
+    background: #AFA9A9;
+}
