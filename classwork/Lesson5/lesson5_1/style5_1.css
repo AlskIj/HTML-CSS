@@ -1,0 +1,43 @@
+.pink-box{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: lorem 5s ease-in infinite alternate;
+}
+@keyframes lorem {
+    from{
+        transform: scale(1.5) rotate(-60deg) translate(-300px, -300px);
+    }
+    40%{
+        transform: rotate(60deg);
+        border-radius: 35%;
+    }
+    to{
+        transform: scale(1) rotate(0deg);
+        background-color: yellow;
+    }
+
+}
+
+@keyframes lorem2 {
+    from{
+        transform: skew(40deg) translateX(300px);
+    }
+    40% {
+        border-radius: 35%;
+    }
+    to{
+        transform: rotate(0deg);
+        background-color: #8a0a0a;
+    }
+
+}
+
+.black-box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 100px auto 0 auto;
+    animation: lorem2 5s ease-in infinite alternate;
+}
