@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 20% 10% 10% 20% 20%;
+    grid-template-areas:
+    "header header"
+    "t_section t_aside"
+    "m_section t_aside"
+    "m_section b_aside"
+    "b_section b_aside"
+    "footer footer";
+}
+header{
+    grid-area: header;
+    background: #8D8484;
+}
+section:nth-of-type(1){
+    grid-area: t_section;
+    background: #776969;
+}
+section:nth-of-type(2){
+    grid-area: m_section;
+    background: #643030;
+}
+section:nth-of-type(3){
+    grid-area: b_section;
+    background: #441818;
+}
+aside:nth-of-type(1){
+    grid-area: t_aside;
+    background: #937575;
+}
+aside:nth-of-type(2){
+    grid-area: b_aside;
+    background: #644C4C;
+}
+footer{
+    grid-area: footer;
+    background: #BDBDBD;
+}
